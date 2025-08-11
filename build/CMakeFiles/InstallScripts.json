@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

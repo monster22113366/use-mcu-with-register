@@ -1,0 +1,13 @@
+# ninja log v7
+2	85	7766080493474185	build.ninja	bd7dc06a917cafd4
+2	85	7766080493434197	D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/cmake_install.cmake	bd7dc06a917cafd4
+11	53	7766069378976593	CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj	91942fcbaab5582d
+9	64	7766069378956714	CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj	e7336f283f7f2ab0
+3	75	7766069378896585	CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj	586ea7ad2cc645e
+4	85	7766080407758830	CMakeFiles/register_mode.dir/code/User/Src/main.c.obj	3c2ab02313c02ed5
+85	230	7766080408571338	output/register_mode	64e4ea3e09f57c02
+13	65	7766080513113774	CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj	91942fcbaab5582d
+10	66	7766080513083778	CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj	e7336f283f7f2ab0
+3	80	7766080513009547	CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj	586ea7ad2cc645e
+6	81	7766080513039556	CMakeFiles/register_mode.dir/code/User/Src/main.c.obj	3c2ab02313c02ed5
+81	205	7766080513783773	output/register_mode	64e4ea3e09f57c02

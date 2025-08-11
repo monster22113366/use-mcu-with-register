@@ -1,0 +1,3 @@
+D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/register_mode.dir
+D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/edit_cache.dir
+D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/rebuild_cache.dir

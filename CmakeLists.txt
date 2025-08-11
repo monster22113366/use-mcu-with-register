@@ -1,0 +1,90 @@
+cmake_minimum_required(VERSION 3.22)        #cmake版本
+
+#设置交叉编译工具链
+set(CMAKE_SYSTEM_NAME               Generic)
+set(CMAKE_SYSTEM_PROCESSOR          arm)
+
+set(CMAKE_C_COMPILER                arm-none-eabi-gcc)
+set(CMAKE_ASM_COMPILER              arm-none-eabi-gcc)
+set(CMAKE_CXX_COMPILER              arm-none-eabi-g++)
+set(CMAKE_LINKER                    arm-none-eabi-g++)
+set(CMAKE_OBJCOPY                   arm-none-eabi-objcopy)
+set(CMAKE_SIZE                      arm-none-eabi-size)
+
+# 禁用编译器检查
+set(CMAKE_C_COMPILER_WORKS 1)
+set(CMAKE_CXX_COMPILER_WORKS 1)
+set(CMAKE_ASM_COMPILER_WORKS 1)
+
+#工程基本信息
+set(PROJECT_NAME register_mode)          #工程名字
+set(CMAKE_C_STANDARD 11)                    #C语言标准
+set(CMAKE_ASM_STANDARD_REQUIRED ON)         #开启汇编
+set(CMAKE_C_EXTENSIONS ON)                  #开启C++
+set(CMAKE_BUILD_TYPE Debug)                 #编译类型：debug
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)       #生成compile_commands.json文件
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output)
+
+enable_language(C ASM CXX)                  #编程语言
+project(${PROJECT_NAME})                             #创建工程
+
+#收集源文件，头文件目录
+add_executable(${PROJECT_NAME})
+
+# 修正源文件路径
+file(GLOB_RECURSE user_source "${CMAKE_SOURCE_DIR}/code/*/Src/*.c")
+
+set(INCLUDE_DIRECTORY
+    "${CMAKE_SOURCE_DIR}/code/App/Inc"
+    "${CMAKE_SOURCE_DIR}/code/User/Inc"
+    "${CMAKE_SOURCE_DIR}/code/Components/Inc"
+)
+
+target_sources(${PROJECT_NAME} PRIVATE
+    ${user_source}
+    ${CMAKE_SOURCE_DIR}/startup_stm32f401xc.s
+)
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${INCLUDE_DIRECTORY})
+
+
+add_compile_definitions(
+    USE_HAL_DRIVER
+    STM32F401xC
+)
+
+
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb")      #架构和浮点运算相关选项
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wpedantic")                                        #警告和调试相关选项
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -g3")                                                         #优化和调试相关选项
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fdata-sections -ffunction-sections")                             #代码和数据优化选项
+
+
+set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -fno-rtti -fno-exceptions -fno-threadsafe-statics")               #C++ 特定选项
+
+
+set(CMAKE_ASM_FLAGS "${CMAKE_C_FLAGS} -x assembler-with-cpp -MMD -MP")                                  #汇编器相关选项
+
+
+
+# 链接器设置
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T \"${CMAKE_SOURCE_DIR}/STM32F401CCUx_FLASH.ld\"")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} --specs=nano.specs")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map=${CMAKE_BINARY_DIR}/output/${CMAKE_PROJECT_NAME}.map")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--gc-sections")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--print-memory-usage")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--start-group -lc -lm -Wl,--end-group")
+
+# 禁用Windows特定的链接器选项
+set(CMAKE_C_LINK_EXECUTABLE "<CMAKE_C_COMPILER> <FLAGS> <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET>.elf <LINK_LIBRARIES>")
+set(CMAKE_CXX_LINK_EXECUTABLE "<CMAKE_CXX_COMPILER> <FLAGS> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET>.elf <LINK_LIBRARIES>")
+set(CMAKE_ASM_LINK_EXECUTABLE "<CMAKE_ASM_COMPILER> <FLAGS> <CMAKE_ASM_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET>.elf <LINK_LIBRARIES>")
+
+
+#转化成bin，hex
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O binary ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.elf ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.bin
+    COMMAND ${CMAKE_OBJCOPY} -O ihex ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.elf ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.hex
+    COMMAND arm-none-eabi-objdump -d ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.elf > ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.s
+    COMMAND echo "ninja 编译成功！"
+)

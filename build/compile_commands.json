@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build",
+  "command": "D:\\APP\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -DSTM32F401xC -DUSE_HAL_DRIVER -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11 -o CMakeFiles\\register_mode.dir\\code\\App\\Src\\appled.c.obj -c D:\\ELECT\\CODE\\vscode\\ST\\stm32f401ccu6\\register_test\\register_mode\\code\\App\\Src\\appled.c",
+  "file": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Src/appled.c",
+  "output": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj"
+},
+{
+  "directory": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build",
+  "command": "D:\\APP\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -DSTM32F401xC -DUSE_HAL_DRIVER -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11 -o CMakeFiles\\register_mode.dir\\code\\User\\Src\\main.c.obj -c D:\\ELECT\\CODE\\vscode\\ST\\stm32f401ccu6\\register_test\\register_mode\\code\\User\\Src\\main.c",
+  "file": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Src/main.c",
+  "output": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/register_mode.dir/code/User/Src/main.c.obj"
+},
+{
+  "directory": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build",
+  "command": "D:\\APP\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -DSTM32F401xC -DUSE_HAL_DRIVER -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11 -o CMakeFiles\\register_mode.dir\\code\\User\\Src\\system_stm32f4xx.c.obj -c D:\\ELECT\\CODE\\vscode\\ST\\stm32f401ccu6\\register_test\\register_mode\\code\\User\\Src\\system_stm32f4xx.c",
+  "file": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Src/system_stm32f4xx.c",
+  "output": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj"
+},
+{
+  "directory": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build",
+  "command": "D:\\APP\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -DSTM32F401xC -DUSE_HAL_DRIVER -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -x assembler-with-cpp -MMD -MP -g -o CMakeFiles\\register_mode.dir\\startup_stm32f401xc.s.obj -c D:\\ELECT\\CODE\\vscode\\ST\\stm32f401ccu6\\register_test\\register_mode\\startup_stm32f401xc.s",
+  "file": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/startup_stm32f401xc.s",
+  "output": "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj"
+}
+]
