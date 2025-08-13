@@ -11,10 +11,13 @@
 
 /*引入user层头文件*/
 #include "main.h"
+#include "system_clock.h"
 
 
 /* 引入App层头文件 */
 #include "appled.h"
+#include "scheduler.h"
+#include "appusart.h"
 
 /* 引入Component层头文件 */
 
@@ -70,10 +73,67 @@ typedef struct
     volatile uint32_t RESERVED7[5];
 }RCC_TypeDef;
 
+typedef struct 
+{
+    /* data */
+    volatile uint32_t CTRL;
+    volatile uint32_t LOAD;
+    volatile uint32_t VAL;
+    volatile uint32_t CALIB;
+}Systick_TypeDef;
+
+typedef struct 
+{
+    /* data */
+    volatile uint32_t ACR;
+    volatile uint32_t KEYR;
+    volatile uint32_t OPTKEYR;
+    volatile uint32_t SR;
+    volatile uint32_t CR;
+    volatile uint32_t OPTCR;
+}Flash_TypeDef;
+
+typedef struct 
+{
+    /* data */
+    volatile uint32_t SR;
+    volatile uint32_t DR;
+    volatile uint32_t BRR;
+    volatile uint32_t CR1;
+    volatile uint32_t CR2;
+    volatile uint32_t CR3;
+    volatile uint32_t GTPR;
+}USART_TypeDef;
+
+typedef struct 
+{
+    /* data */
+    volatile uint32_t ISER[8];   // 中断使能寄存器
+    volatile uint32_t RESERVED0[24];
+    volatile uint32_t ICER[8];   // 中断清除使能寄存器
+    volatile uint32_t RESERVED1[24];
+    volatile uint32_t ISPR[8];   // 中断设置挂起寄存器
+    volatile uint32_t RESERVED2[24];
+    volatile uint32_t ICPR[8];   // 中断清除挂起寄存器
+    volatile uint32_t RESERVED3[24];
+    volatile uint32_t IABR[8];   // 中断活动位寄存器
+    volatile uint32_t RESERVED4[56];
+    volatile uint8_t  IP[240];   // 中断优先级寄存器
+} NVIC_TypeDef;
+
+
 
 /* 寄存器地址声明 */
 #define GPIOA ((GPIO_TypeDef *) 0x40020000)
+#define GPIOB ((GPIO_TypeDef *) 0x40020400)
 #define RCC ((RCC_TypeDef *) 0x40023800)
+#define SYSTICK ((Systick_TypeDef *) 0xE000E010)
+#define FLASH ((Flash_TypeDef *) 0x40023C00)
+#define USART1 ((USART_TypeDef *) 0x40011000)
+#define NVIC ((NVIC_TypeDef *) 0xE000E100)
+
+/* 全局变量 */
+extern uint32_t uwTick;
 
 
 

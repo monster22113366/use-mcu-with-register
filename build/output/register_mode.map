@@ -297,9 +297,134 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .text          0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .data          0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .text          0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0xad2 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x9e CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0x364 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0x112 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0x170 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .text          0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .data          0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0xad2 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x9e CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0x364 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0x112 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0x170 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
@@ -334,10 +459,13 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000      0xad2 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x2a CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x9e CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000      0x364 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000      0x112 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
@@ -358,23 +486,70 @@ Discarded input sections
  .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .text          0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .data          0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000      0xad2 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000       0x51 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_macro   0x00000000      0x1df CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .group         0x00000000        0xc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .text          0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .data          0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0xad2 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x9e CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0x364 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0x112 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0x170 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
  .text          0x00000000       0x14 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
  .data          0x00000000        0x0 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
  .bss           0x00000000        0x0 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
@@ -405,8 +580,10 @@ LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/
 LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libm.a
 END GROUP
 LOAD CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+LOAD CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+LOAD CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
 LOAD CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
-LOAD CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+LOAD CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
 LOAD CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 START GROUP
 LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a
@@ -430,7 +607,7 @@ LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/
                 0x08000000                g_pfnVectors
                 0x08000194                        . = ALIGN (0x4)
 
-.text           0x08000194      0x2cc
+.text           0x08000194      0x69c
                 0x08000194                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -452,195 +629,249 @@ LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/
                 0x080002e0                LED_OFF
  .text.LED_ON   0x08000310       0x30 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
                 0x08000310                LED_ON
- .text.main     0x08000340       0xa4 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
-                0x08000340                main
+ .text.led_display
+                0x08000340       0x76 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+                0x08000340                led_display
+ *fill*         0x080003b6        0x2 
+ .text.led_task
+                0x080003b8       0x18 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+                0x080003b8                led_task
+ .text.usart1_init
+                0x080003d0       0x94 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x080003d0                usart1_init
+ .text.usart1_send_char
+                0x08000464       0x30 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x08000464                usart1_send_char
+ .text.usart1_send_string
+                0x08000494       0x2a CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x08000494                usart1_send_string
+ *fill*         0x080004be        0x2 
+ .text.USART1_IRQHandler
+                0x080004c0       0x64 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x080004c0                USART1_IRQHandler
+ .text.usart_task
+                0x08000524       0x7c CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x08000524                usart_task
+ .text.tasknum_init
+                0x080005a0       0x18 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+                0x080005a0                tasknum_init
+ .text.task1    0x080005b8       0x20 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+                0x080005b8                task1
+ .text.task_run
+                0x080005d8       0x8c CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+                0x080005d8                task_run
+ .text.main     0x08000664       0x1a CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+                0x08000664                main
+ *fill*         0x0800067e        0x2 
  .text.SystemInit
-                0x080003e4        0xe CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
-                0x080003e4                SystemInit
- *fill*         0x080003f2        0x2 
+                0x08000680       0xbc CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+                0x08000680                SystemInit
+ .text.Systick_Config
+                0x0800073c       0x40 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+                0x0800073c                Systick_Config
+ .text.SysTick_Handler
+                0x0800077c       0x48 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+                0x0800077c                SysTick_Handler
  .text.Reset_Handler
-                0x080003f4       0x50 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
-                0x080003f4                Reset_Handler
+                0x080007c4       0x50 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+                0x080007c4                Reset_Handler
  .text.Default_Handler
-                0x08000444        0x2 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
-                0x08000444                RTC_Alarm_IRQHandler
-                0x08000444                EXTI2_IRQHandler
-                0x08000444                DebugMon_Handler
-                0x08000444                SPI4_IRQHandler
-                0x08000444                TIM1_CC_IRQHandler
-                0x08000444                DMA2_Stream5_IRQHandler
-                0x08000444                HardFault_Handler
-                0x08000444                DMA1_Stream5_IRQHandler
-                0x08000444                SysTick_Handler
-                0x08000444                PVD_IRQHandler
-                0x08000444                SDIO_IRQHandler
-                0x08000444                TAMP_STAMP_IRQHandler
-                0x08000444                PendSV_Handler
-                0x08000444                NMI_Handler
-                0x08000444                EXTI3_IRQHandler
-                0x08000444                TIM1_UP_TIM10_IRQHandler
-                0x08000444                I2C3_ER_IRQHandler
-                0x08000444                EXTI0_IRQHandler
-                0x08000444                I2C2_EV_IRQHandler
-                0x08000444                DMA1_Stream2_IRQHandler
-                0x08000444                FPU_IRQHandler
-                0x08000444                UsageFault_Handler
-                0x08000444                DMA2_Stream2_IRQHandler
-                0x08000444                SPI1_IRQHandler
-                0x08000444                TIM1_BRK_TIM9_IRQHandler
-                0x08000444                DMA2_Stream3_IRQHandler
-                0x08000444                USART6_IRQHandler
-                0x08000444                DMA2_Stream0_IRQHandler
-                0x08000444                TIM4_IRQHandler
-                0x08000444                I2C1_EV_IRQHandler
-                0x08000444                DMA1_Stream6_IRQHandler
-                0x08000444                DMA1_Stream1_IRQHandler
-                0x08000444                TIM3_IRQHandler
-                0x08000444                RCC_IRQHandler
-                0x08000444                Default_Handler
-                0x08000444                EXTI15_10_IRQHandler
-                0x08000444                ADC_IRQHandler
-                0x08000444                DMA1_Stream7_IRQHandler
-                0x08000444                TIM5_IRQHandler
-                0x08000444                DMA2_Stream7_IRQHandler
-                0x08000444                I2C3_EV_IRQHandler
-                0x08000444                EXTI9_5_IRQHandler
-                0x08000444                RTC_WKUP_IRQHandler
-                0x08000444                SPI2_IRQHandler
-                0x08000444                MemManage_Handler
-                0x08000444                DMA1_Stream0_IRQHandler
-                0x08000444                SVC_Handler
-                0x08000444                EXTI4_IRQHandler
-                0x08000444                WWDG_IRQHandler
-                0x08000444                TIM2_IRQHandler
-                0x08000444                OTG_FS_WKUP_IRQHandler
-                0x08000444                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08000444                EXTI1_IRQHandler
-                0x08000444                USART2_IRQHandler
-                0x08000444                I2C2_ER_IRQHandler
-                0x08000444                DMA2_Stream1_IRQHandler
-                0x08000444                FLASH_IRQHandler
-                0x08000444                DMA2_Stream4_IRQHandler
-                0x08000444                BusFault_Handler
-                0x08000444                USART1_IRQHandler
-                0x08000444                OTG_FS_IRQHandler
-                0x08000444                SPI3_IRQHandler
-                0x08000444                DMA1_Stream4_IRQHandler
-                0x08000444                I2C1_ER_IRQHandler
-                0x08000444                DMA2_Stream6_IRQHandler
-                0x08000444                DMA1_Stream3_IRQHandler
+                0x08000814        0x2 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+                0x08000814                RTC_Alarm_IRQHandler
+                0x08000814                EXTI2_IRQHandler
+                0x08000814                DebugMon_Handler
+                0x08000814                SPI4_IRQHandler
+                0x08000814                TIM1_CC_IRQHandler
+                0x08000814                DMA2_Stream5_IRQHandler
+                0x08000814                HardFault_Handler
+                0x08000814                DMA1_Stream5_IRQHandler
+                0x08000814                PVD_IRQHandler
+                0x08000814                SDIO_IRQHandler
+                0x08000814                TAMP_STAMP_IRQHandler
+                0x08000814                PendSV_Handler
+                0x08000814                NMI_Handler
+                0x08000814                EXTI3_IRQHandler
+                0x08000814                TIM1_UP_TIM10_IRQHandler
+                0x08000814                I2C3_ER_IRQHandler
+                0x08000814                EXTI0_IRQHandler
+                0x08000814                I2C2_EV_IRQHandler
+                0x08000814                DMA1_Stream2_IRQHandler
+                0x08000814                FPU_IRQHandler
+                0x08000814                UsageFault_Handler
+                0x08000814                DMA2_Stream2_IRQHandler
+                0x08000814                SPI1_IRQHandler
+                0x08000814                TIM1_BRK_TIM9_IRQHandler
+                0x08000814                DMA2_Stream3_IRQHandler
+                0x08000814                USART6_IRQHandler
+                0x08000814                DMA2_Stream0_IRQHandler
+                0x08000814                TIM4_IRQHandler
+                0x08000814                I2C1_EV_IRQHandler
+                0x08000814                DMA1_Stream6_IRQHandler
+                0x08000814                DMA1_Stream1_IRQHandler
+                0x08000814                TIM3_IRQHandler
+                0x08000814                RCC_IRQHandler
+                0x08000814                Default_Handler
+                0x08000814                EXTI15_10_IRQHandler
+                0x08000814                ADC_IRQHandler
+                0x08000814                DMA1_Stream7_IRQHandler
+                0x08000814                TIM5_IRQHandler
+                0x08000814                DMA2_Stream7_IRQHandler
+                0x08000814                I2C3_EV_IRQHandler
+                0x08000814                EXTI9_5_IRQHandler
+                0x08000814                RTC_WKUP_IRQHandler
+                0x08000814                SPI2_IRQHandler
+                0x08000814                MemManage_Handler
+                0x08000814                DMA1_Stream0_IRQHandler
+                0x08000814                SVC_Handler
+                0x08000814                EXTI4_IRQHandler
+                0x08000814                WWDG_IRQHandler
+                0x08000814                TIM2_IRQHandler
+                0x08000814                OTG_FS_WKUP_IRQHandler
+                0x08000814                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000814                EXTI1_IRQHandler
+                0x08000814                USART2_IRQHandler
+                0x08000814                I2C2_ER_IRQHandler
+                0x08000814                DMA2_Stream1_IRQHandler
+                0x08000814                FLASH_IRQHandler
+                0x08000814                DMA2_Stream4_IRQHandler
+                0x08000814                BusFault_Handler
+                0x08000814                OTG_FS_IRQHandler
+                0x08000814                SPI3_IRQHandler
+                0x08000814                DMA1_Stream4_IRQHandler
+                0x08000814                I2C1_ER_IRQHandler
+                0x08000814                DMA2_Stream6_IRQHandler
+                0x08000814                DMA1_Stream3_IRQHandler
  *(.glue_7)
- .glue_7        0x08000446        0x0 linker stubs
+ .glue_7        0x08000816        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08000446        0x0 linker stubs
+ .glue_7t       0x08000816        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x08000446        0x2 
- .eh_frame      0x08000448        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x08000816        0x2 
+ .eh_frame      0x08000818        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08000448        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08000448                _init
- .init          0x0800044c        0x8 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08000818        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08000818                _init
+ .init          0x0800081c        0x8 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08000454        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08000454                _fini
- .fini          0x08000458        0x8 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08000460                        . = ALIGN (0x4)
-                0x08000460                        _etext = .
+ .fini          0x08000824        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08000824                _fini
+ .fini          0x08000828        0x8 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08000830                        . = ALIGN (0x4)
+                0x08000830                        _etext = .
 
-.vfp11_veneer   0x08000460        0x0
- .vfp11_veneer  0x08000460        0x0 linker stubs
+.vfp11_veneer   0x08000830        0x0
+ .vfp11_veneer  0x08000830        0x0 linker stubs
 
-.v4_bx          0x08000460        0x0
- .v4_bx         0x08000460        0x0 linker stubs
+.v4_bx          0x08000830        0x0
+ .v4_bx         0x08000830        0x0 linker stubs
 
-.iplt           0x08000460        0x0
- .iplt          0x08000460        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08000830        0x0
+ .iplt          0x08000830        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rel.dyn        0x08000460        0x0
- .rel.iplt      0x08000460        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-
-.rodata         0x08000460        0x0
-                0x08000460                        . = ALIGN (0x4)
+.rodata         0x08000830       0x10
+                0x08000830                        . = ALIGN (0x4)
  *(.rodata)
+ .rodata        0x08000830       0x10 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
  *(.rodata*)
-                0x08000460                        . = ALIGN (0x4)
+                0x08000840                        . = ALIGN (0x4)
+
+.rel.dyn        0x08000840        0x0
+ .rel.iplt      0x08000840        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08000460        0x0
-                0x08000460                        __exidx_start = .
+.ARM            0x08000840        0x0
+                0x08000840                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08000460                        __exidx_end = .
+                0x08000840                        __exidx_end = .
 
-.preinit_array  0x08000460        0x0
-                0x08000460                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08000840        0x0
+                0x08000840                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08000460                        PROVIDE (__preinit_array_end = .)
+                0x08000840                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08000460        0x4
-                0x08000460                        PROVIDE (__init_array_start = .)
+.init_array     0x08000840        0x4
+                0x08000840                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08000460        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08000464                        PROVIDE (__init_array_end = .)
+ .init_array    0x08000840        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08000844                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08000464        0x4
+.fini_array     0x08000844        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08000464        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08000844        0x4 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08000468                        _sidata = LOADADDR (.data)
+                0x08000848                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0x0 load address 0x08000468
+.data           0x20000000       0x24 load address 0x08000848
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
  *(.data*)
-                0x20000000                        . = ALIGN (0x4)
-                0x20000000                        _edata = .
+ .data.tasks    0x20000000       0x24 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+                0x20000000                tasks
+                0x20000024                        . = ALIGN (0x4)
+                0x20000024                        _edata = .
 
 .tm_clone_table
-                0x20000000        0x0 load address 0x08000468
+                0x20000024        0x0 load address 0x0800086c
  .tm_clone_table
-                0x20000000        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000024        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
-                0x20000000        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+                0x20000024        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x20000000        0x0 load address 0x08000468
- .igot.plt      0x20000000        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x20000000                        . = ALIGN (0x4)
+.igot.plt       0x20000024        0x0 load address 0x0800086c
+ .igot.plt      0x20000024        0x0 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000024                        . = ALIGN (0x4)
 
-.bss            0x20000000       0x20 load address 0x08000468
-                0x20000000                        _sbss = .
-                0x20000000                        __bss_start__ = _sbss
+.bss            0x20000024       0x74 load address 0x0800086c
+                0x20000024                        _sbss = .
+                0x20000024                        __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
  .bss.completed.1
-                0x20000000        0x1 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
- *fill*         0x20000001        0x3 
- .bss.object.0  0x20000004       0x18 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
- .bss.led_case  0x2000001c        0x1 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
-                0x2000001c                led_case
- .bss.num_test  0x2000001d        0x1 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
-                0x2000001d                num_test
+                0x20000024        0x1 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x20000025        0x3 
+ .bss.object.0  0x20000028       0x18 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.led_case  0x20000040        0x1 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+                0x20000040                led_case
+ *fill*         0x20000041        0x3 
+ .bss.rx_buffer
+                0x20000044       0x40 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x20000044                rx_buffer
+ .bss.rx_index  0x20000084        0x1 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x20000084                rx_index
+ *fill*         0x20000085        0x3 
+ .bss.rx_tick   0x20000088        0x4 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+                0x20000088                rx_tick
+ .bss.task_num  0x2000008c        0x1 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+                0x2000008c                task_num
+ .bss.ticktest  0x2000008d        0x1 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+                0x2000008d                ticktest
+ *fill*         0x2000008e        0x2 
+ .bss.uwTick    0x20000090        0x4 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+                0x20000090                uwTick
+ .bss.counter_1s
+                0x20000094        0x4 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+                0x20000094                counter_1s
  *(COMMON)
-                0x20000020                        . = ALIGN (0x4)
- *fill*         0x2000001e        0x2 
-                0x20000020                        _ebss = .
-                0x20000020                        __bss_end__ = _ebss
+                0x20000098                        . = ALIGN (0x4)
+                0x20000098                        _ebss = .
+                0x20000098                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000020      0x600 load address 0x08000468
-                0x20000020                        . = ALIGN (0x8)
+                0x20000098      0x600 load address 0x0800086c
+                0x20000098                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x20000220                        . = (. + _Min_Heap_Size)
- *fill*         0x20000020      0x200 
-                0x20000620                        . = (. + _Min_Stack_Size)
- *fill*         0x20000220      0x400 
-                0x20000620                        . = ALIGN (0x8)
+                0x20000298                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000098      0x200 
+                0x20000698                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000298      0x400 
+                0x20000698                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -659,115 +890,142 @@ LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/
  .ARM.attributes
                 0x0000008a       0x34 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .ARM.attributes
-                0x000000be       0x34 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+                0x000000be       0x34 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
  .ARM.attributes
-                0x000000f2       0x34 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+                0x000000f2       0x34 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
  .ARM.attributes
-                0x00000126       0x21 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+                0x00000126       0x34 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
  .ARM.attributes
-                0x00000147       0x34 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+                0x0000015a       0x34 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
  .ARM.attributes
-                0x0000017b       0x22 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000018e       0x21 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+ .ARM.attributes
+                0x000001af       0x34 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x000001e3       0x22 D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(output\register_mode.elf elf32-littlearm)
 LOAD linker stubs
 LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc.a
 LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libm.a
 LOAD D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_frame    0x00000000      0x108
+.debug_frame    0x00000000      0x2c4
  .debug_frame   0x00000000       0x2c D:/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000002c       0x80 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_frame   0x000000ac       0x2c CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_frame   0x000000d8       0x30 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x0000002c       0xc0 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_frame   0x000000ec       0xc8 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_frame   0x000001b4       0x74 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_frame   0x00000228       0x2c CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_frame   0x00000254       0x70 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
 
-.debug_info     0x00000000      0x4c8
- .debug_info    0x00000000      0x320 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_info    0x00000320       0xf5 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_info    0x00000415       0x83 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_info    0x00000498       0x30 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+.debug_info     0x00000000      0xe6f
+ .debug_info    0x00000000      0x36a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_info    0x0000036a      0x52f CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_info    0x00000899      0x1d0 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_info    0x00000a69       0xb8 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_info    0x00000b21      0x31e CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_info    0x00000e3f       0x30 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 
-.debug_abbrev   0x00000000      0x1d8
- .debug_abbrev  0x00000000       0xd3 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_abbrev  0x000000d3       0x9c CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_abbrev  0x0000016f       0x45 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x000001b4       0x24 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+.debug_abbrev   0x00000000      0x53e
+ .debug_abbrev  0x00000000      0x12b CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_abbrev  0x0000012b      0x19d CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_abbrev  0x000002c8      0x11c CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_abbrev  0x000003e4       0x5b CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_abbrev  0x0000043f       0xdb CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_abbrev  0x0000051a       0x24 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 
-.debug_aranges  0x00000000       0x98
+.debug_aranges  0x00000000      0x128
  .debug_aranges
-                0x00000000       0x30 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+                0x00000000       0x40 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .debug_aranges
-                0x00000030       0x20 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+                0x00000040       0x40 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
  .debug_aranges
-                0x00000050       0x20 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+                0x00000080       0x30 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
  .debug_aranges
-                0x00000070       0x28 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+                0x000000b0       0x20 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_aranges
+                0x000000d0       0x30 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_aranges
+                0x00000100       0x28 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 
 .debug_rnglists
-                0x00000000       0x5f
+                0x00000000       0xcf
  .debug_rnglists
-                0x00000000       0x1f CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+                0x00000000       0x2b CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
  .debug_rnglists
-                0x0000001f       0x14 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+                0x0000002b       0x38 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
  .debug_rnglists
-                0x00000033       0x13 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+                0x00000063       0x20 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
  .debug_rnglists
-                0x00000046       0x19 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+                0x00000083       0x13 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_rnglists
+                0x00000096       0x20 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_rnglists
+                0x000000b6       0x19 CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 
-.debug_macro    0x00000000     0x1f46
- .debug_macro   0x00000000      0x188 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000188      0xad2 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000c5a       0x22 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000c7c       0x8e CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000d0a       0x51 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000d5b      0x103 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000e5e       0x6a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00000ec8      0x1df CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000010a7       0x7b CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001122       0x2a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x0000114c       0x3c CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001188       0x34 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000011bc       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000011d2       0x9e CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001270      0x364 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000015d4      0x112 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000016e6       0x10 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000016f6       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x0000170c       0x4a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001756       0x34 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x0000178a       0x10 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x0000179a       0x58 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000017f2      0x1e5 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000019d7       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x000019ed       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001a03      0x170 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001b73       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001b89       0x3c CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001bc5       0x22 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001be7       0x10 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_macro   0x00001bf7      0x182 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_macro   0x00001d79       0x75 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_macro   0x00001dee       0x94 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_macro   0x00001e82       0x57 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_macro   0x00001ed9       0x6d CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+.debug_macro    0x00000000     0x2424
+ .debug_macro   0x00000000      0x1a5 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000001a5      0xad2 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00000c77       0x22 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00000c99       0x8e CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00000d27       0x51 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00000d78      0x103 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00000e7b       0x6a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00000ee5      0x1df CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000010c4       0x7b CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x0000113f       0x2a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001169       0x3c CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000011a5       0x34 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000011d9       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000011ef       0x9e CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x0000128d      0x364 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000015f1      0x112 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001703       0x10 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001713       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001729       0x4a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001773       0x34 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000017a7       0x10 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000017b7       0x58 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x0000180f      0x1e5 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x000019f4       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001a0a       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001a20      0x170 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001b90       0x16 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001ba6       0x3c CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001be2       0x22 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001c04       0x10 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001c14       0x34 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_macro   0x00001c48      0x19f CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00001de7       0x75 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00001e5c       0x94 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00001ef0       0x57 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_macro   0x00001f47      0x19f CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_macro   0x000020e6      0x19f CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_macro   0x00002285      0x19f CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
 
-.debug_line     0x00000000      0xbe1
- .debug_line    0x00000000      0x46c CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
- .debug_line    0x0000046c      0x430 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_line    0x0000089c      0x2cb CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_line    0x00000b67       0x7a CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+.debug_line     0x00000000     0x1875
+ .debug_line    0x00000000      0x4e8 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+ .debug_line    0x000004e8      0x547 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_line    0x00000a2f      0x48e CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_line    0x00000ebd      0x431 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_line    0x000012ee      0x50d CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_line    0x000017fb       0x7a CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 
-.debug_str      0x00000000     0x74d0
- .debug_str     0x00000000     0x74d0 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
-                               0x7571 (size before relaxing)
- .debug_str     0x000074d0     0x7431 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .debug_str     0x000074d0     0x3dd1 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
- .debug_str     0x000074d0       0xbc CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+.debug_str      0x00000000     0x782a
+ .debug_str     0x00000000     0x782a CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
+                               0x7690 (size before relaxing)
+ .debug_str     0x0000782a     0x771f CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .debug_str     0x0000782a     0x75b8 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_str     0x0000782a     0x7530 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
+ .debug_str     0x0000782a     0x768e CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
+ .debug_str     0x0000782a       0xbc CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj
                                  0x46 (size before relaxing)
+ .comment       0x00000045       0x46 CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj
  .comment       0x00000045       0x46 CMakeFiles/register_mode.dir/code/User/Src/main.c.obj
- .comment       0x00000045       0x46 CMakeFiles/register_mode.dir/code/User/Src/system_stm32f4xx.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj
 
 .debug_line_str
                 0x00000000       0xa0

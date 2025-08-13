@@ -3,7 +3,6 @@
 #include "stdint.h"
 
 void GPIOA_Init(void);
-void LED_OFF(uint8_t pin);
-void LED_ON(uint8_t pin);
+void led_task(void);
 #endif //APPLED_H
 

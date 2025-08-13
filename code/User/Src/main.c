@@ -2,47 +2,18 @@
 
 
 
-uint8_t led_case = 0;
-uint8_t num_test = 0;
+
 int main(void)
 {
+    Systick_Config(); // 配置SysTick定时器
     GPIOA_Init();  // 初始化GPIOA
+    usart1_init(); // 初始化USART1
 
-    LED_OFF(0);
-    LED_OFF(1);
-    LED_OFF(3);
+    tasknum_init();
+
     while(1)
     {
-        if(++num_test > 10)
-        {
-            num_test = 0;
-        }
-        switch (led_case)
-        {
-        case 1:
-            LED_ON(0);
-            LED_OFF(2);
-            LED_OFF(3);
-        break;
-
-        case 2:
-            LED_ON(2);
-            LED_OFF(0);
-            LED_OFF(3);
-        break;
-
-        case 3:
-            LED_ON(3);
-            LED_OFF(2);
-            LED_OFF(0);
-        break;
-
-        default:
-            LED_OFF(0);
-            LED_OFF(2);
-            LED_OFF(3);
-            break;
-        }
+        task_run();
     }
 }
 

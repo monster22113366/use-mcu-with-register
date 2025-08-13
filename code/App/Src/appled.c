@@ -1,8 +1,11 @@
 #include "stdint.h"
 #include "User.h"
 
+uint8_t led_case = 0;
+
 // 初始化GPIOA的PA0, PA2, PA3为输出模式
-void GPIOA_Init(void) {
+void GPIOA_Init(void)
+{
     // 1. 使能GPIOA时钟
     RCC->AHB1ENR |= (1 << 0);  // 开启GPIOA时钟
 
@@ -23,13 +26,51 @@ void GPIOA_Init(void) {
     GPIOA->PUPDR |= ((0x01 << (0 * 2)) | (0x01 << (2 * 2)) | (0x01 << (3 * 2)));    //设置为上拉
 }
 
-// 点亮LED
-void LED_OFF(uint8_t pin) {
+
+// 熄灭LED
+void LED_OFF(uint8_t pin) 
+{
     GPIOA->ODR |= (1 << pin);  // 设置对应引脚高电平
 }
 
-// 熄灭LED
-void LED_ON(uint8_t pin) {
+
+// 点亮LED
+void LED_ON(uint8_t pin) 
+{
     GPIOA->ODR &= ~(1 << pin);  // 设置对应引脚低电平
 }
 
+void led_display(uint8_t led_case)
+{
+    switch (led_case)
+            {
+            case 1:
+                LED_ON(0);
+                LED_OFF(2);
+                LED_OFF(3);
+            break;
+
+            case 2:
+                LED_ON(2);
+                LED_OFF(0);
+                LED_OFF(3);
+            break;
+
+            case 3:
+                LED_ON(3);
+                LED_OFF(2);
+                LED_OFF(0);
+            break;
+
+            default:
+                LED_OFF(0);
+                LED_OFF(2);
+                LED_OFF(3);
+                break;
+            }
+}
+
+void led_task(void)
+{
+    led_display(led_case);
+}

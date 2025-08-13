@@ -86,5 +86,5 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_OBJCOPY} -O binary ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.elf ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.bin
     COMMAND ${CMAKE_OBJCOPY} -O ihex ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.elf ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.hex
     COMMAND arm-none-eabi-objdump -d ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.elf > ${CMAKE_BINARY_DIR}/output/${PROJECT_NAME}.s
-    COMMAND echo "ninja 编译成功！"
+    COMMAND echo ninja 编译成功
 )
