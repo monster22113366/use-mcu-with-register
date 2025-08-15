@@ -1,8 +1,16 @@
 #include "User.h"
 
-uint8_t rx_buffer[64]; // 接收缓冲区
+#ifdef use_dma_idle_interrupt
+    uint8_t rx_buffer[DMA_BUFFER_SIZE]; // 接收缓冲区
+    uint8_t dma_rx_buffer[DMA_BUFFER_SIZE]; // DMA接收缓冲区
+    uint32_t rx_len = 0; // 接收数据长度
+    volatile uint8_t rx_flag = 0; // 接收完成标志
+#endif
+
+#ifdef use_rx_interrupt
 uint8_t rx_index = 0; // 写指针
 uint32_t rx_tick;
+#endif
 
 void usart1_init(void) {
     // 1. 使能GPIOA和USART1的时钟
@@ -38,10 +46,24 @@ void usart1_init(void) {
     // PCE (奇偶校验使能) 第10位，0表示禁用
     // TE (发送器使能) 第3位
     // RE (接收器使能) 第2位
-    // ***新增：开启接收非空中断 (RXNEIE)***
-    USART1->CR1 |= (1 << 13) | (1 << 3) | (1 << 2) | (1 << 5);
+    // RXNEIE (接收数据寄存器非空中断使能) 第5位
+    // IDLEIE (空闲中断使能) 第4位
+    #ifdef use_rx_interrupt
+        USART1->CR1 &= ~(1 << 12 | (1 << 13) | (1 << 3) | (1 << 2) | (1 << 5)); // 清除相关位
+        USART1->CR1 |=  (0 << 12) | (1 << 13) | (1 << 3) | (1 << 2) | (1 << 5);
+    #endif
 
-    // 6. 配置NVIC
+    #ifdef use_dma_idle_interrupt
+        USART1->CR1 &= ~(1 << 12 | (1 << 13) | (1 << 3) | (1 << 2) | (1 << 4)); // 清除相关位
+        USART1->CR1 |=  (0 << 12) | (1 << 13) | (1 << 3) | (1 << 2) | (1 << 4);
+    #endif
+    #ifdef use_dma_idle_interrupt
+        // 6. 使能DMA
+        USART1->CR3 |= (1 << 6); // DMAR (DMA接收使能) 第6位
+    #endif
+
+
+    // 7. 配置NVIC
     // 中断号37 (USART1) 在 ISER 数组的索引 1 中 (37/32=1), 
     // 且是该寄存器的第 5 位 (37%32=5)
     NVIC->ISER[1] |= (1 << 5);
@@ -67,29 +89,69 @@ void usart1_send_string(const char* str) {
     }
 }
 
-void USART1_IRQHandler(void) {
+// void usart1_printf(const char* format, ...) {
+//     char buffer[128]; // 临时缓冲区
+//     va_list args;
+//     va_start(args, format);
+//     int len = vsnprintf(buffer, sizeof(buffer), format, args);
+//     va_end(args);
+    
+//     if (len > 0) {
+//         usart1_send_string(buffer);
+//     }
+// }
+
+void USART1_IRQHandler(void) 
+{
     // 检查是否是RXNE中断
-    if (USART1->SR & (1 << 5)) 
-    {
-        rx_tick = uwTick; // 记录接收时间
-        // 从DR寄存器读取数据，这会清除RXNE标志
-        unsigned char received_data = (unsigned char)USART1->DR;
-        
-        // 将数据存入缓冲区
-        if (rx_index < sizeof(rx_buffer)) {
-            rx_buffer[rx_index++] = received_data;
-        } else {
-            // 缓冲区满，可以选择丢弃数据或重置指针
-            rx_index = 0; // 简单重置
+    #ifdef use_rx_interrupt
+        if (USART1->SR & (1 << 5)) 
+        {
+            rx_tick = uwTick; // 记录接收时间
+            // 从DR寄存器读取数据，这会清除RXNE标志
+            unsigned char received_data = (unsigned char)USART1->DR;
+            
+            // 将数据存入缓冲区
+            if (rx_index < sizeof(rx_buffer)) {
+                rx_buffer[rx_index++] = received_data;
+            } else {
+                // 缓冲区满，可以选择丢弃数据或重置指针
+                rx_index = 0; // 简单重置
+            }
         }
-    }
+    #endif
+
+    #ifdef use_dma_idle_interrupt
+        if (USART1->SR & (1 << 4)) 
+        {
+            // 清除IDLE标志位: 先读SR，再读DR
+            volatile uint32_t temp = USART1->SR;
+            temp = USART1->DR;
+            
+            // 禁用DMA流
+            DMA2_Stream2->CR &= ~(1 << 0);
+            
+            // 计算接收到的数据长度
+            rx_len = DMA_BUFFER_SIZE - DMA2_Stream2->NDTR;
+            
+            // 将数据从DMA缓冲区复制到用户缓冲区
+            memcpy(rx_buffer, dma_rx_buffer, rx_len);
+            
+            // 设置接收完成标志
+            rx_flag = 1;
+            
+            // 重新配置并使能DMA
+            DMA2_Stream2->NDTR = DMA_BUFFER_SIZE;
+            DMA2_Stream2->CR |= (1 << 0);
+        }
+    #endif
 }
 
 
 
 void usart_task(void)
 {
-    uint8_t send_tick = 0;
+    static uint8_t send_tick = 0;
     if(++send_tick >= 5)
     {
         // 发送字符串
@@ -97,16 +159,34 @@ void usart_task(void)
         send_tick = 0;
     }
 
-    // 处理接收缓冲区中的数据
-    if (rx_index == 0) return;
-    if (uwTick - rx_tick >=100) // 如果超过100ms没有新数据
-    {
-        // 处理接收到的数据
-        for (uint8_t i = 0; i < rx_index; i++) {
-            usart1_send_char(rx_buffer[i]); // 回显接收到的数据
+    #ifdef use_rx_interrupt
+        // 处理接收缓冲区中的数据
+        if (rx_index == 0) return;
+        if (uwTick - rx_tick >=100) // 如果超过100ms没有新数据
+        {
+            // 处理接收到的数据
+            for (uint8_t i = 0; i < rx_index; i++) {
+                usart1_send_char(rx_buffer[i]); // 回显接收到的数据
+            }
+            rx_index = 0; // 清空缓冲区
         }
-        rx_index = 0; // 清空缓冲区
-    }
+    #endif
+
+    #ifdef use_dma_idle_interrupt
+        if (rx_flag) 
+        {
+            // 将接收到的数据回显
+            // usart1_printf("Received %d bytes: ", rx_len);
+            for (uint16_t i = 0; i < rx_len; i++) {
+                usart1_send_char(rx_buffer[i]);
+            }
+            usart1_send_string("\n");
+            // usart1_printf("\n");
+            
+            // 清除标志
+            rx_flag = 0;
+        }
+    #endif
     
     
 }

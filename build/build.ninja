@@ -49,6 +49,17 @@ cmake_ninja_workdir = D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/regis
 
 build cmake_object_order_depends_target_register_mode: phony || .
 
+build CMakeFiles/register_mode.dir/code/App/Src/appdma.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Src/appdma.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\code\App\Src\appdma.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\App\Src
+  TARGET_COMPILE_PDB = CMakeFiles\register_mode.dir\
+  TARGET_PDB = output\register_mode.pdb
+
 build CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Src/appled.c || cmake_object_order_depends_target_register_mode
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
@@ -123,7 +134,7 @@ build CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj: ASM_COMPILER__regi
 #############################################
 # Link the executable output\register_mode
 
-build output/register_mode: C_EXECUTABLE_LINKER__register_mode_Debug CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj CMakeFiles/register_mode.dir/code/User/Src/main.c.obj CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+build output/register_mode: C_EXECUTABLE_LINKER__register_mode_Debug CMakeFiles/register_mode.dir/code/App/Src/appdma.c.obj CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj CMakeFiles/register_mode.dir/code/User/Src/main.c.obj CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
   CONFIG = Debug
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g
   LINK_FLAGS = -T "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/STM32F401CCUx_FLASH.ld" --specs=nano.specs -Wl,-Map=D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.map -Wl,--gc-sections -Wl,--print-memory-usage -Wl,--start-group -lc -lm -Wl,--end-group

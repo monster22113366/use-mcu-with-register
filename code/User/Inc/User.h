@@ -5,6 +5,7 @@
 #include "stdio.h"
 #include "stdint.h"
 #include "string.h"
+#include "stdarg.h"
 #include "stdbool.h"
 
 
@@ -18,6 +19,7 @@
 #include "appled.h"
 #include "scheduler.h"
 #include "appusart.h"
+#include "appdma.h"
 
 /* 引入Component层头文件 */
 
@@ -121,6 +123,18 @@ typedef struct
     volatile uint8_t  IP[240];   // 中断优先级寄存器
 } NVIC_TypeDef;
 
+typedef struct 
+{
+    /* data */
+    volatile uint32_t CR;        // DMA控制寄存器
+    volatile uint32_t NDTR;      // DMA数据传输计数寄存器
+    volatile uint32_t PAR;       // DMA外设地址寄存器
+    volatile uint32_t M0AR;      // DMA内存0地址寄存器
+    volatile uint32_t M1AR;      // DMA内存1地址寄存器
+    volatile uint32_t FCR;       // DMA流控制寄存器
+}DMA_Stream_TypeDef;
+
+
 
 
 /* 寄存器地址声明 */
@@ -131,9 +145,17 @@ typedef struct
 #define FLASH ((Flash_TypeDef *) 0x40023C00)
 #define USART1 ((USART_TypeDef *) 0x40011000)
 #define NVIC ((NVIC_TypeDef *) 0xE000E100)
+#define DMA2_Stream2 ((DMA_Stream_TypeDef *) 0x40026440) // DMA2 Stream2 for USART1_RX 0x4002 6440
+
+/* 全局宏定义 */
+#define use_dma_idle_interrupt
+#ifdef use_dma_idle_interrupt
+    #define DMA_BUFFER_SIZE 64 // DMA缓冲区大小
+#endif
 
 /* 全局变量 */
 extern uint32_t uwTick;
+extern uint8_t dma_rx_buffer[DMA_BUFFER_SIZE]; // DMA接收缓冲区
 
 
 
