@@ -11,6 +11,7 @@ task_t tasks[] =
     {task1,1000,0},
     {led_task,1,0},
     {usart_task,100,0},
+    {pwm_task,20,0},
 };
 /********** 全局变量 **********/
 

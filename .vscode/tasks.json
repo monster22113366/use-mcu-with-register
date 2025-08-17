@@ -10,8 +10,8 @@
                 "options": {
                     "cwd": "${workspaceFolder}",
                     "shell": {
-                        "executable": "/usr/bin/bash",    // 使用 Ubuntu 的 Bash shell
-                        "args": ["-c"]
+                        "executable": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",    // 使用 Ubuntu 的 Bash shell
+                        "args": ["-c","-l"]
                     }
                 },
                 "group": {
@@ -21,3 +21,4 @@
             }
         ]
 }
+

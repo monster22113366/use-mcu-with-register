@@ -20,6 +20,7 @@
 #include "scheduler.h"
 #include "appusart.h"
 #include "appdma.h"
+#include "apptim.h"
 
 /* 引入Component层头文件 */
 
@@ -134,6 +135,53 @@ typedef struct
     volatile uint32_t FCR;       // DMA流控制寄存器
 }DMA_Stream_TypeDef;
 
+typedef struct 
+{
+    /* data */
+    volatile uint32_t CR1;      // 控制寄存器1
+    volatile uint32_t RESERVED0;  // 控制寄存器2
+    volatile uint32_t SMCR;     // 从模式控制寄存器
+    volatile uint32_t DIER;     // 中断使能寄存器
+    volatile uint32_t SR;       // 状态寄存器
+    volatile uint32_t EGR;      // 事件生成寄存器
+    volatile uint32_t CCMR1;    // 捕获/比较模式寄存器1
+    volatile uint32_t RESERVED1;    // 捕获/比较模式寄存器2
+    volatile uint32_t CCER;     // 捕获/比较使能寄存器
+    volatile uint32_t CNT;      // 计数器
+    volatile uint32_t PSC;      // 预分频器
+    volatile uint32_t ARR;      // 自动重装载寄存器
+    volatile uint32_t RESERVED2;
+    volatile uint32_t CCR1;     // 捕获/比较寄存器1
+    volatile uint32_t RESERVED3;
+    volatile uint32_t RESERVED4;
+    volatile uint32_t OR;
+}TIM10_TypeDef;
+
+typedef struct {
+    volatile uint32_t CR1;      // 控制寄存器 1
+    volatile uint32_t CR2;      // 控制寄存器 2
+    volatile uint32_t SMCR;     // 从模式控制寄存器
+    volatile uint32_t DIER;     // DMA/中断使能寄存器
+    volatile uint32_t SR;       // 状态寄存器
+    volatile uint32_t EGR;      // 事件生成寄存器
+    volatile uint32_t CCMR1;    // 捕获/比较模式寄存器 1
+    volatile uint32_t CCMR2;    // 捕获/比较模式寄存器 2
+    volatile uint32_t CCER;     // 捕获/比较使能寄存器
+    volatile uint32_t CNT;      // 计数器
+    volatile uint32_t PSC;      // 预分频器
+    volatile uint32_t ARR;      // 自动重装载寄存器
+    volatile uint32_t RESERVED0;
+    volatile uint32_t CCR1;     // 捕获/比较寄存器 1
+    volatile uint32_t CCR2;     // 捕获/比较寄存器 2
+    volatile uint32_t CCR3;     // 捕获/比较寄存器 3
+    volatile uint32_t CCR4;     // 捕获/比较寄存器 4
+    volatile uint32_t RESERVED1;     
+    volatile uint32_t DCR;      // DMA 控制寄存器
+    volatile uint32_t DMAR;     // DMA 地址寄存器
+    volatile uint32_t OR;
+} TIM2_TypeDef;
+
+
 
 
 
@@ -146,6 +194,8 @@ typedef struct
 #define USART1 ((USART_TypeDef *) 0x40011000)
 #define NVIC ((NVIC_TypeDef *) 0xE000E100)
 #define DMA2_Stream2 ((DMA_Stream_TypeDef *) 0x40026440) // DMA2 Stream2 for USART1_RX 0x4002 6440
+#define TIM10 ((TIM10_TypeDef *) 0x40014400)
+#define TIM2 ((TIM2_TypeDef *) 0x40000000)
 
 /* 全局宏定义 */
 #define use_dma_idle_interrupt
@@ -154,6 +204,8 @@ typedef struct
 #endif
 
 /* 全局变量 */
+#define PWM_OK  0
+#define PWM_ERR 1
 extern uint32_t uwTick;
 extern uint8_t dma_rx_buffer[DMA_BUFFER_SIZE]; // DMA接收缓冲区
 
