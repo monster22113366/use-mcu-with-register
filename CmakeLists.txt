@@ -33,19 +33,33 @@ add_executable(${PROJECT_NAME})
 
 # 修正源文件路径
 file(GLOB_RECURSE user_source "${CMAKE_SOURCE_DIR}/code/*/Src/*.c")
+file(GLOB_RECURSE rtt_source 
+    "${CMAKE_SOURCE_DIR}/rt-thread-nano/src/*.c"
+    "${CMAKE_SOURCE_DIR}/rt-thread-nano/libcpu/*.c"
+    "${CMAKE_SOURCE_DIR}/rt-thread-nano/libcpu/*.S"
+
+)
 
 set(INCLUDE_DIRECTORY
     "${CMAKE_SOURCE_DIR}/code/App/Inc"
     "${CMAKE_SOURCE_DIR}/code/User/Inc"
     "${CMAKE_SOURCE_DIR}/code/Components/Inc"
 )
+set(RTT_INCLUDE_DIRECTORY
+    "${CMAKE_SOURCE_DIR}/rt-thread-nano/include"
+)
+
 
 target_sources(${PROJECT_NAME} PRIVATE
     ${user_source}
     ${CMAKE_SOURCE_DIR}/startup_stm32f401xc.s
+    ${rtt_source}
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE ${INCLUDE_DIRECTORY})
+target_include_directories(${PROJECT_NAME} PRIVATE 
+    ${INCLUDE_DIRECTORY} 
+    ${RTT_INCLUDE_DIRECTORY}
+)
 
 
 add_compile_definitions(
@@ -55,7 +69,7 @@ add_compile_definitions(
 
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb")      #架构和浮点运算相关选项
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wpedantic")                                        #警告和调试相关选项
+# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wpedantic")                                        #警告和调试相关选项
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -g3")                                                         #优化和调试相关选项
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fdata-sections -ffunction-sections")                             #代码和数据优化选项
 

@@ -53,8 +53,8 @@ build CMakeFiles/register_mode.dir/code/App/Src/appdma.c.obj: C_COMPILER__regist
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\App\Src\appdma.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\App\Src
 
@@ -62,8 +62,8 @@ build CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj: C_COMPILER__regist
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\App\Src\appled.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\App\Src
 
@@ -71,8 +71,8 @@ build CMakeFiles/register_mode.dir/code/App/Src/apptim.c.obj: C_COMPILER__regist
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\App\Src\apptim.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\App\Src
 
@@ -80,8 +80,8 @@ build CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj: C_COMPILER__regi
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\App\Src\appusart.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\App\Src
 
@@ -89,8 +89,8 @@ build CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj: C_COMPILER__reg
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\App\Src\scheduler.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\App\Src
 
@@ -98,8 +98,8 @@ build CMakeFiles/register_mode.dir/code/User/Src/main.c.obj: C_COMPILER__registe
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\User\Src\main.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\User\Src
 
@@ -107,8 +107,8 @@ build CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj: C_COMPILER_
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\code\User\Src\system_clock.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\code\User\Src
 
@@ -116,10 +116,190 @@ build CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj: ASM_COMPILER__regi
   CONFIG = Debug
   DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\register_mode.dir\startup_stm32f401xc.s.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -x assembler-with-cpp -MMD -MP -g
-  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -x assembler-with-cpp -MMD -MP -g
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
   OBJECT_DIR = CMakeFiles\register_mode.dir
   OBJECT_FILE_DIR = CMakeFiles\register_mode.dir
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/libcpu/context_gcc.S.obj: ASM_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/libcpu/context_gcc.S || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\libcpu\context_gcc.S.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -x assembler-with-cpp -MMD -MP -g
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\libcpu
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/libcpu/cpuport.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/libcpu/cpuport.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\libcpu\cpuport.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\libcpu
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/board.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/board.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\board.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/clock.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/clock.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\clock.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/components.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/components.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\components.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/cpu.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/cpu.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\cpu.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/device.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/device.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\device.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/idle.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/idle.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\idle.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/ipc.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/ipc.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\ipc.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/irq.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/irq.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\irq.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/kservice.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/kservice.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\kservice.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/mem.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/mem.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\mem.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/memheap.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/memheap.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\memheap.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/mempool.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/mempool.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\mempool.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/object.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/object.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\object.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/scheduler.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/scheduler.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\scheduler.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/signal.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/signal.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\signal.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/slab.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/slab.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\slab.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/thread.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/thread.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\thread.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
+
+build CMakeFiles/register_mode.dir/rt-thread-nano/src/timer.c.obj: C_COMPILER__register_mode_unscanned_Debug D$:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/src/timer.c || cmake_object_order_depends_target_register_mode
+  CONFIG = Debug
+  DEFINES = -DSTM32F401xC -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\register_mode.dir\rt-thread-nano\src\timer.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g -std=gnu11
+  INCLUDES = -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/App/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/User/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/code/Components/Inc -ID:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/rt-thread-nano/include
+  OBJECT_DIR = CMakeFiles\register_mode.dir
+  OBJECT_FILE_DIR = CMakeFiles\register_mode.dir\rt-thread-nano\src
 
 
 # =============================================================================
@@ -129,9 +309,9 @@ build CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj: ASM_COMPILER__regi
 #############################################
 # Link the executable output\register_mode
 
-build output/register_mode: C_EXECUTABLE_LINKER__register_mode_Debug CMakeFiles/register_mode.dir/code/App/Src/appdma.c.obj CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj CMakeFiles/register_mode.dir/code/App/Src/apptim.c.obj CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj CMakeFiles/register_mode.dir/code/User/Src/main.c.obj CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj
+build output/register_mode: C_EXECUTABLE_LINKER__register_mode_Debug CMakeFiles/register_mode.dir/code/App/Src/appdma.c.obj CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj CMakeFiles/register_mode.dir/code/App/Src/apptim.c.obj CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj CMakeFiles/register_mode.dir/code/User/Src/main.c.obj CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj CMakeFiles/register_mode.dir/rt-thread-nano/libcpu/context_gcc.S.obj CMakeFiles/register_mode.dir/rt-thread-nano/libcpu/cpuport.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/board.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/clock.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/components.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/cpu.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/device.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/idle.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/ipc.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/irq.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/kservice.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/mem.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/memheap.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/mempool.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/object.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/scheduler.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/signal.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/slab.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/thread.c.obj CMakeFiles/register_mode.dir/rt-thread-nano/src/timer.c.obj
   CONFIG = Debug
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -Wextra -Wpedantic -O0 -g3 -fdata-sections -ffunction-sections -g
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O0 -g3 -fdata-sections -ffunction-sections -g
   LINK_FLAGS = -T "D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/STM32F401CCUx_FLASH.ld" --specs=nano.specs -Wl,-Map=D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.map -Wl,--gc-sections -Wl,--print-memory-usage -Wl,--start-group -lc -lm -Wl,--end-group
   OBJECT_DIR = CMakeFiles\register_mode.dir
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D D:\ELECT\CODE\vscode\ST\stm32f401ccu6\register_test\register_mode\build && arm-none-eabi-objcopy -O binary D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.elf D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.bin && arm-none-eabi-objcopy -O ihex D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.elf D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.hex && arm-none-eabi-objdump -d D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.elf > D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/output/register_mode.s && echo ninja 编译成功"

@@ -79,4 +79,9 @@ void SysTick_Handler(void)
 {
     uwTick++;
     if(uwTick%1000 == 0) counter_1s++;
+    rt_interrupt_enter();
+    
+    rt_tick_increase();
+
+    rt_interrupt_leave();
 }

@@ -75,7 +75,8 @@ void usart1_init(void) {
     NVIC->IP[37] = 0x01;
 }
 
-void usart1_send_char(unsigned char data) {
+void usart1_send_char(unsigned char data) 
+{
     // 检查TXE（发送数据寄存器空）标志位
     // SR寄存器第7位
     while (!(USART1->SR & (1 << 7)));
@@ -149,44 +150,56 @@ void USART1_IRQHandler(void)
 
 
 
-void usart_task(void)
+void usart_task(void *parameter)
 {
-    static uint8_t send_tick = 0;
-    if(++send_tick >= 5)
+    while(1)
     {
-        // 发送字符串
-        usart1_send_string("Hello, USART1!\n");
-        send_tick = 0;
+        static uint8_t send_tick = 0;
+        if(++send_tick >= 5)
+        {
+            // 发送字符串
+            usart1_send_string("Hello, USART1!\n");
+            send_tick = 0;
+        }
+    
+        #ifdef use_rx_interrupt
+            // 处理接收缓冲区中的数据
+            if (rx_index == 0) return;
+            if (uwTick - rx_tick >=100) // 如果超过100ms没有新数据
+            {
+                // 处理接收到的数据
+                for (uint8_t i = 0; i < rx_index; i++) {
+                    usart1_send_char(rx_buffer[i]); // 回显接收到的数据
+                }
+                rx_index = 0; // 清空缓冲区
+            }
+        #endif
+    
+        #ifdef use_dma_idle_interrupt
+            if (rx_flag) 
+            {
+                // 将接收到的数据回显
+                // usart1_printf("Received %d bytes: ", rx_len);
+                for (uint16_t i = 0; i < rx_len; i++) {
+                    usart1_send_char(rx_buffer[i]);
+                }
+                usart1_send_string("\n");
+                // usart1_printf("\n");
+                
+                // 清除标志
+                rx_flag = 0;
+            }
+        #endif
+        rt_thread_delay(200);
     }
-
-    #ifdef use_rx_interrupt
-        // 处理接收缓冲区中的数据
-        if (rx_index == 0) return;
-        if (uwTick - rx_tick >=100) // 如果超过100ms没有新数据
-        {
-            // 处理接收到的数据
-            for (uint8_t i = 0; i < rx_index; i++) {
-                usart1_send_char(rx_buffer[i]); // 回显接收到的数据
-            }
-            rx_index = 0; // 清空缓冲区
-        }
-    #endif
-
-    #ifdef use_dma_idle_interrupt
-        if (rx_flag) 
-        {
-            // 将接收到的数据回显
-            // usart1_printf("Received %d bytes: ", rx_len);
-            for (uint16_t i = 0; i < rx_len; i++) {
-                usart1_send_char(rx_buffer[i]);
-            }
-            usart1_send_string("\n");
-            // usart1_printf("\n");
-            
-            // 清除标志
-            rx_flag = 0;
-        }
-    #endif
     
-    
+}
+
+void usart_task_init(void)
+{
+    rt_thread_t tid = rt_thread_create("usart_task", usart_task, RT_NULL, 1024, 10, 20);
+    if (tid != RT_NULL)
+    {
+        rt_thread_startup(tid);
+    }
 }

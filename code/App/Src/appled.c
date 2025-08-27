@@ -70,7 +70,26 @@ void led_display(uint8_t led_case)
             }
 }
 
-void led_task(void)
+void led_task(void *parameter)
 {
-    led_display(led_case);
+    while(1)
+    {
+        led_display(led_case);
+        led_case++;
+        if(led_case > 3)
+        {
+            led_case = 0;
+        }
+        rt_thread_delay(500); // 延时500个OS Tick
+        
+    }
+}
+
+void led_task_init(void)
+{
+    rt_thread_t tid = rt_thread_create("led_task", led_task, RT_NULL, 1024, 10, 20);
+    if (tid != RT_NULL)
+    {
+        rt_thread_startup(tid);
+    }
 }

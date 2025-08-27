@@ -24,6 +24,9 @@
 
 /* 引入Component层头文件 */
 
+/* 引入rtthread头文件 */
+#include "rtthread.h"
+
 
 /*寄存器结构体定义*/
 typedef struct

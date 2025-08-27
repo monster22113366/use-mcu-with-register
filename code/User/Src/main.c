@@ -5,18 +5,9 @@
 
 int main(void)
 {
-    Systick_Config(); // 配置SysTick定时器
-    GPIOA_Init();  // 初始化GPIOA
-    usart1_init(); // 初始化USART1
-    dma2_usart1_rx_init(); // 初始化DMA接收
-    TIM10_Init(); // 初始化TIM10
-    TIM2_PWM_Init();
 
-    tasknum_init();
-
-    while(1)
-    {
-        task_run();
-    }
+    led_task_init();
+    usart_task_init();
+    return 0;
 }
 
