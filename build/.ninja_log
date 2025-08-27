@@ -1,10 +1,10 @@
 # ninja log v7
-2	85	7779693718098045	build.ninja	bd7dc06a917cafd4
-2	85	7779693718055328	D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/cmake_install.cmake	bd7dc06a917cafd4
+2	85	7779704748622837	build.ninja	bd7dc06a917cafd4
+2	85	7779704748562831	D:/ELECT/CODE/vscode/ST/stm32f401ccu6/register_test/register_mode/build/cmake_install.cmake	bd7dc06a917cafd4
 26	94	7779693304103811	CMakeFiles/register_mode.dir/startup_stm32f401xc.s.obj	34a23242c404e67d
 6	120	7779693303903900	CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj	84918c143bcb10ec
 17	130	7779693304013813	CMakeFiles/register_mode.dir/code/User/Src/main.c.obj	7d719de90c5690b5
-86	251	7771283449786506	output/register_mode	13b6956a9b8857fe
+103	266	7779693719742210	output/register_mode	cf6b0de0d6ba1ed
 21	123	7779693304053815	CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj	13315730c3957460
 15	126	7779693303983821	CMakeFiles/register_mode.dir/code/App/Src/scheduler.c.obj	34d62f5fe0080b43
 12	114	7779693303953808	CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj	3ef800a604d22aa4
@@ -30,4 +30,11 @@
 21	92	7779693718916136	CMakeFiles/register_mode.dir/rt-thread-nano/src/signal.c.obj	8161134ea39271fb
 35	101	7779693719056131	CMakeFiles/register_mode.dir/rt-thread-nano/src/timer.c.obj	50b6416778ee3f10
 32	103	7779693719026129	CMakeFiles/register_mode.dir/rt-thread-nano/src/thread.c.obj	ea56af3992543809
-103	266	7779693719742210	output/register_mode	cf6b0de0d6ba1ed
+16	121	7779704749598740	CMakeFiles/register_mode.dir/code/App/Src/appusart.c.obj	3ef800a604d22aa4
+8	123	7779704749527167	CMakeFiles/register_mode.dir/code/App/Src/appled.c.obj	84918c143bcb10ec
+12	123	7779704749556149	CMakeFiles/register_mode.dir/code/App/Src/apptim.c.obj	347139a3d5cb05b1
+28	124	7779704749718847	CMakeFiles/register_mode.dir/rt-thread-nano/src/board.c.obj	4c7edf9faa2037a8
+22	124	7779704749668731	CMakeFiles/register_mode.dir/code/User/Src/system_clock.c.obj	13315730c3957460
+19	125	7779704749628732	CMakeFiles/register_mode.dir/code/User/Src/main.c.obj	7d719de90c5690b5
+4	125	7779704749476713	CMakeFiles/register_mode.dir/code/App/Src/appdma.c.obj	40fd62ef66324a9
+126	336	7779704750693280	output/register_mode	6621391881b39e6

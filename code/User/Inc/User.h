@@ -17,7 +17,6 @@
 
 /* 引入App层头文件 */
 #include "appled.h"
-#include "scheduler.h"
 #include "appusart.h"
 #include "appdma.h"
 #include "apptim.h"
